@@ -1,0 +1,24 @@
+---
+title: "Data Viz"
+output: html_document
+date: "2022-09-19"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# library
+library(ggplot2)
+ 
+# dataset:
+data=data.frame(value=rnorm(100))
+
+# basic histogram
+p <- ggplot(data, aes(x=value)) + 
+  geom_histogram()
+
+p
+```
+
