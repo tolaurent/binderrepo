@@ -1,0 +1,6 @@
+---
+title: "README"
+output: github_document
+---
+
+This is a repo for launching RStudio using Binder.
